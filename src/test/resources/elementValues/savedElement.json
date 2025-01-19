@@ -1,0 +1,27 @@
+[
+  {
+    "key": "ThumbsUp",
+    "value": ".thumbsUp.hermes-ReviewCard-module-lOsa4wAwncdp3GgzpaaV",
+    "type": "css"
+  },
+  {
+  "key": "ThanksText",
+  "value": ".hermes-ReviewCard-module-eFtSSTU4lYZLCnzHtzca",
+  "type": "css"
+  },
+  {
+  "key": "ProductPrice",
+  "value": "//div[@data-test-id='default-price']//span",
+  "type": "xpath"
+  },
+  {
+  "key": "GoToCart",
+  "value": "//button[text()='Sepete git']",
+  "type": "xpath"
+  },
+  {
+  "key": "CartPrice",
+  "value": "//div[@class='product_price_uXU6Q']",
+  "type": "xpath"
+  }
+]

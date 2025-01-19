@@ -1,0 +1,8 @@
+Created by mehme on 18.01.2025
+
+This is a concept file with following syntax for each concept.
+# Rastgele bir ürünün detay sayfasına geçilir
+* Son sekmeye odaklan
+* Elementin yuklenmesini bekle css ".productListContent-zAP0Y5msy8OHn5z7T_K_"
+* Ürün listesinde rastgele birine tikla
+* Elementinin yuklenmesini bekle id "shoppingCart"

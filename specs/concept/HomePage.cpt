@@ -1,0 +1,14 @@
+Created by mehme on 18.01.2025
+
+This is a concept file with following syntax for each concept.
+# Hepsiburada web sayfası açılır
+* "https://www.hepsiburada.com" adresine git
+* "2" saniye bekle
+* Çerez popupı açıldıysa kapatılır
+* "3" saniye bekle
+
+# Arama kutusunda bir ürün aratılır
+* Elementinin yuklenmesini bekle xpath "//input[@placeholder='Ürün, kategori veya marka ara']/.."
+* Arama kutusuna "iphone" girilir
+* Arama kutusunda enter'a tıklanır
+

@@ -1,0 +1,36 @@
+Created by mehme on 18.01.2025
+
+This is a concept file with following syntax for each concept.
+# Değerlendirmeler tab’ine geçiş yapılır ve buradan Sırala : En Yeni Değerlendirme seçilir.
+* Son sekmeye odaklan
+* Değerlendirmeler butonuna tıklanır
+* "1" saniye bekle
+* Sırala butonuna tıklanır
+* "1" saniye bekle
+* "En yeni değerlendirme" metni olan elemente tikla
+* "2" saniye bekle
+
+# Bir yorum beğenilir ve teşekkür yazısı kontrol edilir
+* Yorum yoksa test sonlandırılır
+* "ThumbsUp" alanina kaydir
+* "1" saniye bekle
+* Elementine tikla "ThumbsUp"
+* "ThanksText" elementi "Teşekkür Ederiz." degerini iceriyor mu kontrol et
+* "2" saniye bekle
+
+# Seçilen ürün en uygun fiyatlı satıcıdan sepete eklenir
+* Son sekmeye odaklan
+* "2" saniye bekle
+* Diğer satıcı fiyatları karşılaştırılır en uygun fiyat sepete eklenir
+* "2" saniye bekle
+
+# Sepete eklenen ürünün fiyat bilgisi kontrol edilir
+* "2" saniye bekle
+* Son sekmeye odaklan
+* "ProductPrice" li elementi bul ve degerini "UrunFiyati" olarak sakla
+* Ürün sepete eklenir
+* "3" saniye bekle
+* Elementine tikla "GoToCart"
+* "2" saniye bekle
+* Son sekmeye odaklan
+* "CartPrice" li elementin text degerini hafizada "UrunFiyati" olarak saklanan text ile karsilastir
