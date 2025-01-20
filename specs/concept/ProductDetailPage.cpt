@@ -4,9 +4,10 @@ This is a concept file with following syntax for each concept.
 # Değerlendirmeler tab’ine geçiş yapılır ve buradan Sırala : En Yeni Değerlendirme seçilir.
 * Son sekmeye odaklan
 * Değerlendirmeler butonuna tıklanır
-* "1" saniye bekle
+* "2" saniye bekle
+* "Sort" alanina kaydir
 * Sırala butonuna tıklanır
-* "1" saniye bekle
+* "2" saniye bekle
 * "En yeni değerlendirme" metni olan elemente tikla
 * "2" saniye bekle
 

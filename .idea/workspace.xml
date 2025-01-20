@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a81914-b671-4e75-916b-707a9e5c1095" name="Changes" comment="initial commit">
+    <list default="true" id="22a81914-b671-4e75-916b-707a9e5c1095" name="Changes" comment="api test added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/specs/concept/ProductDetailPage.cpt" beforeDir="false" afterPath="$PROJECT_DIR$/specs/concept/ProductDetailPage.cpt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/spec/ApiTest.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/spec/ApiTest.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/ProductDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ProductDetailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/elementValues/savedElement.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/elementValues/savedElement.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +79,9 @@
     "Gauge Execution.Senaryo 2.executor": "Run",
     "Gauge Execution.Senaryo 3 (1).executor": "Run",
     "Gauge Execution.Senaryo 3.executor": "Run",
+    "Gauge Execution.Specifications (1).executor": "Run",
+    "Gauge Execution.Specifications (2).executor": "Run",
+    "Gauge Execution.Specifications.executor": "Run",
     "Gauge Execution.sa.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -108,38 +106,8 @@
       <recent name="driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Api Request (2)">
+  <component name="RunManager" selected="Gauge Execution.Specifications (2)">
     <configuration name="Api Request (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:5" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="HepsiburadaTestAutomation" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Api Request (2)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:5" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="HepsiburadaTestAutomation" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Api Request" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:5" />
       <setting name="tags" value="" />
@@ -169,9 +137,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Senaryo 3 (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+    <configuration name="Specifications (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/HepsiburadaUI.spec:23" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="HepsiburadaTestAutomation" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Specifications (2)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="HepsiburadaTestAutomation" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Specifications" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -186,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gauge Execution.Api Request (2)" />
-        <item itemvalue="Gauge Execution.HepsiburadaUI.spec" />
+        <item itemvalue="Gauge Execution.Specifications (2)" />
+        <item itemvalue="Gauge Execution.Specifications (1)" />
+        <item itemvalue="Gauge Execution.Specifications" />
         <item itemvalue="Gauge Execution.Api Request (1)" />
-        <item itemvalue="Gauge Execution.Senaryo 3 (1)" />
-        <item itemvalue="Gauge Execution.Api Request" />
+        <item itemvalue="Gauge Execution.HepsiburadaUI.spec" />
       </list>
     </recent_temporary>
   </component>
@@ -211,11 +209,20 @@
       <option name="project" value="LOCAL" />
       <updated>1737295543347</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="api test added">
+      <option name="closed" value="true" />
+      <created>1737396371077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737396371077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="api test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="api test added" />
   </component>
 </project>

@@ -23,5 +23,10 @@
   "key": "CartPrice",
   "value": "//div[@class='product_price_uXU6Q']",
   "type": "xpath"
+  },
+  {
+  "key": "Sort",
+  "value": ".hermes-Sort-module-Zwr_VRf_e4tZXl5J1PgT",
+  "type": "css"
   }
 ]
