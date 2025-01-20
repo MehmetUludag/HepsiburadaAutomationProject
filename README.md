@@ -3,7 +3,7 @@
 ### Proje Hakkında:
 
 Hepsiburada web sitesinde 3 adet happy path senaryosu otomatize edilmiştir.
-Örnek bir api servisinden get ve post servislerinin otomasyonu yazılmıştır.
+Örnek bir api servisinden get ve post çağrılarının otomasyonu yazılmıştır.
  
 ---
 
