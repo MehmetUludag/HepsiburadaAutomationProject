@@ -187,6 +187,20 @@ public class BaseSteps extends BaseTest {
         Assertions.fail("Element: '" + xpath + "' doesn't exist.");
     }
 
+    @Step("Elementinin yuklenmesini bekle <key>")
+    public void waitElementLoad(String key) {
+        int loopCount = 0;
+        while (loopCount < DEFAULT_MAX_ITERATION_COUNT) {
+            if (findElement(key) != null) {
+                logger.info(key + " elementi bulundu.");
+                return;
+            }
+            loopCount++;
+            waitByMilliSeconds(DEFAULT_MILLISECOND_WAIT_AMOUNT);
+        }
+        Assertions.fail("Element: '" + key + "' doesn't exist.");
+    }
+
     @Step("Elementinin yuklenmesini bekle id <id>")
     public void waitElementLoadWithId(String id) {
         int loopCount = 0;

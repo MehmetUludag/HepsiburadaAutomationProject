@@ -5,6 +5,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.thoughtworks.gauge.AfterScenario;
 import com.thoughtworks.gauge.BeforeScenario;
+import com.thoughtworks.gauge.ExecutionContext;
 import model.ElementInfo;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.WebDriver;
@@ -26,10 +27,7 @@ import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.TimeUnit;
@@ -51,8 +49,10 @@ public class BaseTest {
 
 
     @BeforeScenario
-    public void setUp() {
-        logger.info("************************************  BeforeScenario  ************************************");
+    public void setUp(ExecutionContext context) {
+
+        if (!context.getCurrentSpecification().getTags().contains("api")) {
+            logger.info("************************************  BeforeScenario  ************************************");
 
             if (StringUtils.isEmpty(System.getenv("key"))) {
                 logger.info("Local cihazda " + selectPlatform + " ortamında " + browserName + " browserında test ayağa kalkacak");
@@ -76,13 +76,15 @@ public class BaseTest {
                 }
 
             }
-
+        }
     }
 
     @AfterScenario
-    public void tearDown() {
+    public void tearDown(ExecutionContext context) {
+        if (!context.getCurrentSpecification().getTags().contains("api")) {
+            driver.quit();
+        }
 
-        driver.quit();
     }
 
     public void initMap(List<File> fileList) {

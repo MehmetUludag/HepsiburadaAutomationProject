@@ -1,11 +1,13 @@
-Specification Heading
-=====================
-Created by mehme on 19.01.2025
+Api Tests
+=========
+tags:api
 
-This is an executable specification file which follows markdown syntax.
-Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-     
-Get Request
+Api Request
 -----------
+* Bir POST isteği gönder
+* HTTP durum kodu 200 kontrolü yapılır
+* Yanıt verisi kontrol edilir
+
 * Bir GET isteği gönder
 * HTTP durum kodu 200 kontrolü yapılır
+* Yanıt verisi kontrol edilir

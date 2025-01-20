@@ -30,6 +30,7 @@ This is a concept file with following syntax for each concept.
 * "ProductPrice" li elementi bul ve degerini "UrunFiyati" olarak sakla
 * Ürün sepete eklenir
 * "3" saniye bekle
+* Elementinin yuklenmesini bekle "GoToCart"
 * Elementine tikla "GoToCart"
 * "2" saniye bekle
 * Son sekmeye odaklan

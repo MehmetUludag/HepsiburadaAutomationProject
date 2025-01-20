@@ -158,12 +158,14 @@ public class ProductDetailPage extends BaseTest {
         if(priceList.get(0) == price1){
             otherPriceCart1.click();
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-test-id='addToCart']")));
+            baseSteps.waitBySeconds(2);
             productAddToCart.click();
             logger.info("Ilk diger urun sepete eklendi");
         }
         else if(priceList.get(0) == price2){
             otherPriceCart2.click();
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-test-id='addToCart']")));
+            baseSteps.waitBySeconds(2);
             productAddToCart.click();
             logger.info("Ikinci diğer urun sepete eklendi");
 

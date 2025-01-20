@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a81914-b671-4e75-916b-707a9e5c1095" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/default/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/default/java.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/default/user.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/firefox/browser.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/spec/HepsiburadaUI.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/geckodriver.exe" afterDir="false" />
+    <list default="true" id="22a81914-b671-4e75-916b-707a9e5c1095" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/concept/ProductDetailPage.cpt" beforeDir="false" afterPath="$PROJECT_DIR$/specs/concept/ProductDetailPage.cpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/spec/ApiTest.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/spec/ApiTest.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/methods/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/methods/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/ProductDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ProductDetailPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MehmetUludag&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MehmetUludag/HepsiburadaAutomationProject.git&quot;,
+    &quot;accountId&quot;: &quot;b1a19a9e-9eaf-420e-b6e7-0cb3d0b2310d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -48,13 +54,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gauge Execution.Api Request (1).executor": "Run",
+    "Gauge Execution.Api Request (2).executor": "Run",
+    "Gauge Execution.Api Request (3).executor": "Run",
+    "Gauge Execution.Api Request (4).executor": "Run",
+    "Gauge Execution.Api Request.executor": "Run",
+    "Gauge Execution.ApiTest.spec (1).executor": "Run",
+    "Gauge Execution.ApiTest.spec.executor": "Run",
     "Gauge Execution.Get Request (1).executor": "Run",
+    "Gauge Execution.Get Request (2).executor": "Run",
+    "Gauge Execution.Get Request (3).executor": "Run",
+    "Gauge Execution.Get Request (4).executor": "Run",
+    "Gauge Execution.Get Request (5).executor": "Run",
     "Gauge Execution.Get Request.executor": "Run",
     "Gauge Execution.Get Started (1).executor": "Run",
     "Gauge Execution.Get Started (2).executor": "Run",
     "Gauge Execution.Get Started (3).executor": "Run",
     "Gauge Execution.Get Started (4).executor": "Run",
     "Gauge Execution.Get Started.executor": "Run",
+    "Gauge Execution.HepsiburadaUI.spec.executor": "Run",
     "Gauge Execution.Post Request.executor": "Run",
     "Gauge Execution.Senaryo 1 (1).executor": "Run",
     "Gauge Execution.Senaryo 1 (2).executor": "Run",
@@ -64,7 +82,9 @@
     "Gauge Execution.Senaryo 1.executor": "Run",
     "Gauge Execution.Senaryo 2 (1).executor": "Run",
     "Gauge Execution.Senaryo 2.executor": "Run",
+    "Gauge Execution.Senaryo 3 (1).executor": "Run",
     "Gauge Execution.Senaryo 3.executor": "Run",
+    "Gauge Execution.sa.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -88,10 +108,10 @@
       <recent name="driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Get Request (1)">
-    <configuration name="Get Request (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+  <component name="RunManager" selected="Gauge Execution.Api Request (2)">
+    <configuration name="Api Request (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:8" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:5" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -104,9 +124,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get Request" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+    <configuration name="Api Request (2)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:8" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:5" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -119,9 +139,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Post Request" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+    <configuration name="Api Request" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:13" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/ApiTest.spec:5" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -134,9 +154,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Senaryo 2 (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+    <configuration name="HepsiburadaUI.spec" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/HepsiburadaUI.spec:16" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/HepsiburadaUI.spec" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -149,7 +169,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Senaryo 3" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+    <configuration name="Senaryo 3 (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/spec/HepsiburadaUI.spec:23" />
       <setting name="tags" value="" />
@@ -166,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gauge Execution.Get Request (1)" />
-        <item itemvalue="Gauge Execution.Post Request" />
-        <item itemvalue="Gauge Execution.Get Request" />
-        <item itemvalue="Gauge Execution.Senaryo 3" />
-        <item itemvalue="Gauge Execution.Senaryo 2 (1)" />
+        <item itemvalue="Gauge Execution.Api Request (2)" />
+        <item itemvalue="Gauge Execution.HepsiburadaUI.spec" />
+        <item itemvalue="Gauge Execution.Api Request (1)" />
+        <item itemvalue="Gauge Execution.Senaryo 3 (1)" />
+        <item itemvalue="Gauge Execution.Api Request" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +203,19 @@
       <option name="presentableId" value="Default" />
       <updated>1737144737219</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1737295543347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737295543347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
